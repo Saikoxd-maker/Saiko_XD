@@ -85,6 +85,23 @@
         .link-button:hover {
             background-color: #005bb5;
         }
+        .email-button{
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            color: #ffffff;
+            background-color: #0073e6;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .email-button:hover{
+            background-color: #005bb5;
+        }
 
         /* Services List Styling */
         .services-list {
@@ -148,7 +165,7 @@
             <a href="https://www.youtube.com/@AISutradhar" class="link-button" target="_blank">YouTube Channel</a>
             <a href="https://www.instagram.com/your-profile" class="link-button" target="_blank">Instagram</a>
             <a href="https://twitter.com/your-profile" class="link-button" target="_blank">Twitter</a>
-            <a href="davpsobra.ayush@gmail.com?subject=Inquiry&body=Hello%20there!" class="link-button" target="_blank">Email Us</a>
+            <button class="email-button" onclick="window.location.href='mailto:davpsobra.ayush@gmail.com'">Email me"</button>
             <!-- Embedded YouTube Video -->
             <div class="embed-video">
                 <iframe src="main.mp4" allowfullscreen></iframe>
